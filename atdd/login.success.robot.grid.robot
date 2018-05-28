@@ -1,8 +1,9 @@
 *** Settings ***
-Library   SeleniumLibrary
-
+Library   Selenium2Library
+Test Teardown   Close Browser
 
 *** Variables ***
+${URL}  http://localhost:8082/demo/
 
 *** Testcase ***
 Login success
@@ -14,7 +15,8 @@ Login success
   
 *** Keywords ***
 OpenLoginURL Login
-  Open Browser  http://10.22.66.240:8088/demo/  
+  #Open Browser  http://10.22.66.240:8088/demo/
+  Open Browser   ${URL}
   #...  browser=chrome
   #...  remote_url=http://10.22.66.240:4444/wd/hub
   ...  remote_url=http://192.168.99.100:4444/wd/hub
