@@ -33,5 +33,6 @@ Push button
   Capture Page Screenshot 
   
 Can access
-  Wait Until Page Contains  ผิดนะ เข้าไม่ได้
+  #Wait Until Page Contains  ผิดนะ เข้าไม่ได้
+  Wait Until Page Contains  ผิดนะ เข้าไม่ได้ Fail
   Capture Page Screenshot 
