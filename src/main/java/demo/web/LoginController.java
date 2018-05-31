@@ -14,7 +14,7 @@ import demo.dao.UserDao;
 import demo.service.LoginService;
 
 @SuppressWarnings("serial")
-@WebServlet(name = "LoginController", urlPatterns = { "/login" })
+@WebServlet(name = "LoginController", urlPatterns = { "login" })
 public class LoginController extends HttpServlet {
 
 	@Override
