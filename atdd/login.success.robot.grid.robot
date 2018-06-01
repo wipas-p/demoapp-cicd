@@ -6,7 +6,7 @@ Test Teardown   Close Browser
 ${URL}  http://localhost:8082/demo/
 
 *** Testcase ***
-Login success
+Login fail - testing
   OpenLoginURL Login
   Fill username
   Fill password
@@ -19,7 +19,7 @@ OpenLoginURL Login
   Open Browser   ${URL}
   #...  browser=chrome
   #...  remote_url=http://10.22.66.240:4444/wd/hub
-  ...  remote_url=http://192.168.99.100:4444/wd/hub
+  ...  remote_url=http://selenium.180.222.156.218.xip.io/wd/hub
   ...  desired_capabilities=browserName:chrome,platform:MAC,platformName:MAC
   
 Fill username
