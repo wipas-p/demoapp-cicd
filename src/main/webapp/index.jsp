@@ -10,7 +10,7 @@
 
    <h1>Login คือ ระบบที่ทุกระบบต้องมี at CDG</h1>
 
-	<form action="/demo/login">
+	<form action="./login">
 		<table>
 		<tr>
 		    <td>Username</td>
