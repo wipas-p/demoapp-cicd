@@ -18,8 +18,8 @@ OpenLoginURL Login
   #Open Browser  http://10.22.66.240:8088/demo/
   Open Browser   ${URL}
   #...  browser=chrome
-  ...  remote_url=http://10.22.66.240:4444/wd/hub
-  #...  remote_url=http://selenium.180.222.156.218.xip.io/wd/hub
+  #...  remote_url=http://10.22.66.240:4444/wd/hub
+  ...  remote_url=http://selenium.180.222.156.218.xip.io/wd/hub
   ...  desired_capabilities=browserName:chrome,platform:MAC,platformName:MAC
   
 Fill username
