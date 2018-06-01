@@ -6,7 +6,7 @@ Test Teardown   Close Browser
 ${URL}  http://localhost:8082/demo/
 
 *** Testcases ***
-Login success with somkiat
+Login success - testing
   เข้าหน้า login
   กรอก username และ password
   สามารถเข้าระบบงานได้
@@ -14,11 +14,13 @@ Login success with somkiat
 *** Keywords ***
 สามารถเข้าระบบงานได้
   Wait Until Page Contains    สวัสดีจ๊ะ
+  Capture Page Screenshot
 
 กรอก username และ password
   Input Text  id=user   demo
   Input Text  id=pin   pass
   Click Button   เข้าสิจ๊ะ
+  Capture Page Screenshot
 
 เข้าหน้า login
   Open Browser   ${URL}
