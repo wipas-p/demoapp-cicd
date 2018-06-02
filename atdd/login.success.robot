@@ -31,4 +31,3 @@ Login success - testing
   ...  browser=chrome
   #...  remote_url=http://localhost:4444/wd/hub
   #...  desired_capabilities=browserName:chrome,platform:MAC,platformName:MAC
-  Capture Page Screenshot
