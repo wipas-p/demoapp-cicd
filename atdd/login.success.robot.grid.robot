@@ -21,7 +21,7 @@ OpenLoginURL Login
   #...  remote_url=http://10.22.66.240:4444/wd/hub
   ...  remote_url=http://selenium.180.222.156.218.xip.io/wd/hub
   #...  desired_capabilities=browserName:chrome,platform:MAC,platformName:MAC
-  ...  desired_capabilities=browserName:chrome,platform:LINUX,version:62.0.3202.94
+  ...  desired_capabilities=browserName:chrome,platform:LINUX,version:62.0.3202.94,seleniumProtocol: WebDriver
   
 Fill username
   Input Text  id:user  user1
