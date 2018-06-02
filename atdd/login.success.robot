@@ -9,6 +9,7 @@ ${URL}  http://localhost:8082/demo/
 Login success - testing
   เข้าหน้า login
   กรอก username และ password
+  กดปุ่ม
   สามารถเข้าระบบงานได้
 
 *** Keywords ***
@@ -19,6 +20,9 @@ Login success - testing
 กรอก username และ password
   Input Text  id=user   demo
   Input Text  id=pin   pass
+  Capture Page Screenshot
+
+กดปุ่ม
   Click Button   เข้าสิจ๊ะ
   Capture Page Screenshot
 
@@ -27,3 +31,4 @@ Login success - testing
   ...  browser=chrome
   #...  remote_url=http://localhost:4444/wd/hub
   #...  desired_capabilities=browserName:chrome,platform:MAC,platformName:MAC
+  Capture Page Screenshot
