@@ -3,8 +3,7 @@
 How to run ?
 
 ```
-$mvn clean package
-$mvn tomcat7:run
+$mvnw clean package
 
 ```
 
