@@ -1,5 +1,5 @@
 #!/bin/bash
-cat <EOF> deployapp.yaml
+cat <<EOF> deployapp.yaml
 kind: Service
 apiVersion: v1
 metadata:
