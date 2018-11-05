@@ -33,8 +33,4 @@ spec:
         image: $IMAGE_NAME:$BUILD_NUMBER
         ports:
         - containerPort: 80
-        env:
-        - name: IMAGE_NAME
-          value: ''
-        - name: BUILD_NUMBER
-          value: ''
+
