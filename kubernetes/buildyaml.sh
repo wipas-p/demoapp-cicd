@@ -1,4 +1,4 @@
-!/bin/bash
+#!/bin/bash
 cat <EOF> deployapp.yaml
 kind: Service
 apiVersion: v1
