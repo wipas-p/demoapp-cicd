@@ -34,6 +34,6 @@ spec:
       - name: demoapp
         image: $IMAGE_NAME:$BUILD_NUMBER
         ports:
-        - containerPort: 80
+        - containerPort: 8080
 EOF
 
