@@ -6,6 +6,7 @@ metadata:
   name: demoapp-canary
   labels:
     app: demoapp-canary
+    track: canary
 spec:
   replicas: 1
   selector:
