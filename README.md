@@ -1,4 +1,4 @@
-# workshop-java-web-tdd
+# DemoApp
 
 How to run ?
 
