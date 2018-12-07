@@ -3,7 +3,7 @@ Library   Selenium2Library
 Test Teardown   Close Browser
 
 *** Variables ***
-${URL}  http://localhost:8082/demo/
+${URL}  https://demoapp-dev.okd.45.116.216.140.xip.io/demo/
 
 *** Testcase ***
 Login fail - testing
@@ -20,7 +20,8 @@ OpenLoginURL Login
   #...  browser=chrome
   #...  remote_url=http://10.22.66.240:4444/wd/hub
   #...  remote_url=http://selenium.180.222.156.218.xip.io/wd/hub
-  ...  remote_url=http://180.222.156.219:30444/wd/hub
+  #...  remote_url=http://180.222.156.219:30444/wd/hub
+  ...  remote_url=http://hub:4444/wd/hub
   #...  desired_capabilities=browserName:chrome,platform:MAC,platformName:MAC
   ...  desired_capabilities=browserName:chrome,platform:LINUX,version:62.0.3202.94,seleniumProtocol: WebDriver
   
