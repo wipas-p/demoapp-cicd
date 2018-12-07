@@ -5,7 +5,7 @@ Test Teardown   Close Browser
 *** Variables ***
 ${URL}  https://demoapp-dev.okd.45.116.216.140.xip.io/demo/
 
-*** Testcase ***
+*** Test case ***
 Login fail - testing
   OpenLoginURL Login
   Fill username
@@ -23,7 +23,8 @@ OpenLoginURL Login
   #...  remote_url=http://180.222.156.219:30444/wd/hub
   ...  remote_url=http://hub:4444/wd/hub
   #...  desired_capabilities=browserName:chrome,platform:MAC,platformName:MAC
-  ...  desired_capabilities=browserName:chrome,platform:LINUX,version:62.0.3202.94,seleniumProtocol: WebDriver
+  #...  desired_capabilities=browserName:chrome,platform:LINUX,version:62.0.3202.94,seleniumProtocol: WebDriver
+  ...  desired_capabilities=browserName: chrome,platformName: LINUX, seleniumProtocol: WebDriver,version:70.0.3538.110
   
 Fill username
   Input Text  id:user  user1
