@@ -4,9 +4,9 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>Demo</title>
+<title>TEST01</title>
 </head>
-<body bgcolor=violet>
+<body bgcolor=red>
 
    <h1>Demo Login Application for CICD Training</h1>
 
@@ -23,7 +23,7 @@
 		 <tr>
 		    <td></td>
 		    <td>
-		    <input type="submit" id="login" value="เข้าสิจ๊ะ">
+		    <input type="submit" id="login" value="Welcome">
 		    </td>
 		</tr>
 		</table>
