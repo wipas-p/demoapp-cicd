@@ -3,7 +3,7 @@ Library   Selenium2Library
 Test Teardown   Close Browser
 
 *** Variables ***
-${URL}  https://demoapp-dev.okd.45.116.216.140.xip.io/demo/
+${URL}  https://demoapp-dev.apps.45.116.216.107.xip.io/demo/
 
 *** Test case ***
 Login fail - testing
