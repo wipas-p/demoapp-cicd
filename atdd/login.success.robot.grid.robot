@@ -24,7 +24,7 @@ OpenLoginURL Login
   ...  remote_url=http://172.19.0.3:4444/wd/hub
   #...  desired_capabilities=browserName:chrome,platform:MAC,platformName:MAC
   #...  desired_capabilities=browserName:chrome,platform:LINUX,version:62.0.3202.94,seleniumProtocol: WebDriver
-  ...  desired_capabilities=browserName: chrome,platformName: LINUX, seleniumProtocol: WebDriver,version:70.0.3538.110
+  ...  desired_capabilities=browserName: chrome,platformName: LINUX, seleniumProtocol: WebDriver,version:72.0.3626.81
   
 Fill username
   Input Text  id:user  user1
