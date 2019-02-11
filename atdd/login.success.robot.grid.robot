@@ -21,7 +21,7 @@ OpenLoginURL Login
   #...  remote_url=http://10.22.66.240:4444/wd/hub
   #...  remote_url=http://selenium.180.222.156.218.xip.io/wd/hub
   #...  remote_url=http://180.222.156.219:30444/wd/hub
-  ...  remote_url=http://hub:4444/wd/hub
+  ...  remote_url=http://172.19.0.3:4444/wd/hub
   #...  desired_capabilities=browserName:chrome,platform:MAC,platformName:MAC
   #...  desired_capabilities=browserName:chrome,platform:LINUX,version:62.0.3202.94,seleniumProtocol: WebDriver
   ...  desired_capabilities=browserName: chrome,platformName: LINUX, seleniumProtocol: WebDriver,version:70.0.3538.110
