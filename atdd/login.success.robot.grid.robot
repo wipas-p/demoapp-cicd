@@ -16,6 +16,7 @@ Login fail - testing
 *** Keywords ***
 OpenLoginURL Login
   #Open Browser  http://10.22.66.240:8088/demo/
+  #Open Browser  http://10.22.66.240:80/demo/
   Open Browser   ${URL}
   #...  browser=chrome
   #...  remote_url=http://10.22.66.240:4444/wd/hub
