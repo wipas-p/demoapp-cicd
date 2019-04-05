@@ -40,4 +40,4 @@ Push button
 Can access
   Wait Until Page Contains  ผิดนะ เข้าไม่ได้
   Capture Page Screenshot
-  Teardown
+  Close Browser
